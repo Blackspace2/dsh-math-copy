@@ -1,0 +1,9 @@
+# Activate math-copy as a Web client-plugin roster entry.
+#
+# `id` is a free label (patch targeting, HMR display). `name` is a module
+# specifier the Loader imports, and `dsh-client-modules` keys the browser boot
+# graph by exactly this name — so it MUST equal the installed package name,
+# which is also the id the client bundle registers with __ModuleLoader__.load().
+- insert:
+    - id: math-copy
+      name: math-copy

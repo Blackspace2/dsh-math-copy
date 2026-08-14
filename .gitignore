@@ -1,0 +1,27 @@
+# Dependencies and generated local output
+node_modules/
+*.tgz
+coverage/
+.vitest/
+*.log
+
+# Local editors and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment files and package-manager credentials
+.env
+.env.*
+!.env.example
+.npmrc
+.yarnrc.yml
+
+# Private keys and signing credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore

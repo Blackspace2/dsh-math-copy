@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["/**\n * Host half of math-copy. The feature is browser-only; this empty Cordis plugin\n * keeps the package in the host loader so DSH can discover its client bundle.\n */\nexport function apply(): void {}\n"],
+  "mappings": "AAIO,SAAS,QAAc;AAAC;",
+  "names": []
+}

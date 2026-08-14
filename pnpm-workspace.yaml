@@ -1,0 +1,6 @@
+packages:
+  - '.'
+
+# esbuild's install script selects the native binary used by the build.
+allowBuilds:
+  esbuild: true
